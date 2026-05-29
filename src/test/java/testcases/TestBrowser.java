@@ -93,6 +93,7 @@ public class TestBrowser {
 
             page.close();
             browser.close();
+            playwright.close();
         }
     }
 }
